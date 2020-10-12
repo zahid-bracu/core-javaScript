@@ -1,7 +1,7 @@
 # core-javaScript
 topic:
 Javascript-core
-JS Basic
+JS Basic__
 console.log(`Hello World`);
 Variable
 Type of variable
