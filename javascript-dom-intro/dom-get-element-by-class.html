@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        article{
+            
+            width: 500px;
+            border:2px solid green;
+            border-radius: 20px;
+            padding: 10px;
+            margin: 2px auto;
+        }
+    </style>
+</head>
+<body>
+    <h2 style="text-align: center;">Exploring DOM</h2>
+    <article>
+        <h3>article-1</h3>
+        <p class="author">author-1</p>
+        <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, sed?</p>
+    </article>
+    <article>
+        <h3>article-2</h3>
+        <p class="author">author-2</p>
+        <p class="description">Totam rem aperiam autem consequatur saepe modi reiciendis error a.</p>
+    </article>
+    <article>
+        <h3>article-3</h3>
+        <p class="author">author-3</p>
+        <p class="description">Dolore, non aspernatur cumque recusandae saepe repellat quo sunt officiis.</p>
+    </article>
+
+
+    <script>
+        var author=document.getElementsByClassName("author");
+        for(var i=0;i<author.length;i++){
+            author[i].style.backgroundColor="green";
+            author[i].style.color="white";
+        }
+    </script>
+</body>
+</html>

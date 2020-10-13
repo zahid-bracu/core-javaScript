@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <main>
+        <section>
+            <h2>Exploring DOM</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, reiciendis.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus, quibusdam.</p>
+        </section>
+    </main>
+    
+    <script>
+        var html=document.getElementsByTagName("p")
+        console.log(html[0].innerText);
+        console.log(html[1].innerText);
+
+        for(var i=0;i<html.length;i++){
+            html[i].style.color="red";
+        }
+    </script>
+</body>
+</html>
