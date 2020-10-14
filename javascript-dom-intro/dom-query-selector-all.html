@@ -16,33 +16,28 @@
     </style>
 </head>
 <body>
-    <h2 style="text-align: center;">Exploring DOM</h2>
-    <article>
+    <article class='article'>
         <h3>article-1</h3>
         <p class="author">author-1</p>
         <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, sed?</p>
     </article>
-    <article>
+    <article class='article'>
         <h3>article-2</h3>
         <p class="author">author-2</p>
         <p class="description">Totam rem aperiam autem consequatur saepe modi reiciendis error a.</p>
     </article>
-    <article>
+    <article class='article'>
         <h3>article-3</h3>
         <p class="author">author-3</p>
         <p class="description">Dolore, non aspernatur cumque recusandae saepe repellat quo sunt officiis.</p>
     </article>
-
-
-    <script>
-        // selected by class name & return an array
-        var author=document.getElementsByClassName("author");
-        // loop through the class name array
-        for(var i=0;i<author.length;i++){
-            // change the css value
-            author[i].style.backgroundColor="green";
-            author[i].style.color="white";
-        }
-    </script>
 </body>
+
+<script>
+    // query selector all : select all as an array
+     var article=document.querySelectorAll("article h3");
+     for(var i=0;i<article.length;i++){
+         article[i].style.background="yellow";
+     }
+</script>
 </html>

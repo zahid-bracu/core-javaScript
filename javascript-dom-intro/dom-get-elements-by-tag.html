@@ -16,10 +16,12 @@
     </main>
     
     <script>
+        // select by tag name...being selected as array
         var html=document.getElementsByTagName("p")
         console.log(html[0].innerText);
         console.log(html[1].innerText);
 
+        // loop through the array
         for(var i=0;i<html.length;i++){
             html[i].style.color="red";
         }

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="parent">
+        <ul id="child">
+            <li id="grandchild">grandchild-1</li>
+            <li id="grandchild">grandchild-2</li>
+            <li id="grandchild">grandchild-3</li>
+            <li id="grandchild">grandchild-4</li>
+            <li id="grandchild">grandchild-5</li>
+        </ul>
+    </div>
+    <script>
+        var parent=document.getElementById("parent");
+        var child=document.getElementById("child");
+        var grandchild=document.getElementById("grandchild");
+
+
+        console.log(grandchild.parentNode);
+        console.log(child.childNodes);
+        console.log(child.parentNode);
+    </script>
+</body>
+</html>
