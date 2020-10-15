@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+        <h5>This is Container</h5>
+        <ul id="list">
+            <li id="first" class="list-item">list-1</li>
+            <li class="list-item">list-2</li>
+            <li class="list-item">list-3</li>
+            <li class="list-item">list-4</li>
+            <li class="list-item">list-5</li>
+        </ul>
+    </div>
+</body>
+
+<script>
+    var first=document.getElementById('first').addEventListener('click',function(){
+        console.log("First Item Clicked");
+        event.stopPropagation();
+    });
+    var list=document.getElementById('list').addEventListener('click',function(){
+        console.log("List Item Clicked");
+        event.stopPropagation();
+    });
+    var container=document.getElementById('container').addEventListener('click',function(){
+        console.log("Container Item Clicked")
+        });
+</script>
+</html>

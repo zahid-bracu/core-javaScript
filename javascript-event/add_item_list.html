@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul id="list">
+        <li class="items">Lorem, ipsum.</li>
+        <li class="items">Earum, optio!</li>
+        <li class="items">Sint, veritatis.</li>
+        <li class="items">Ab, aut!</li>
+        <li class="items">Adipisci, magnam?</li>
+    </ul>
+    <button id="btn">Add</button>
+</body>
+<script>
+    function rand(){
+        var num=Math.random();
+        console.log(num);
+        return num;
+    }
+
+    // Add Item to List
+    var btn=document.getElementById('btn').addEventListener('click',function(){
+        var list=document.getElementById('list');
+        var newElem=document.createElement('li');
+        var value=rand()*1000;
+        newElem.innerText=value;
+        list.appendChild(newElem);
+    });
+
+
+     
+
+</script>
+</html>
