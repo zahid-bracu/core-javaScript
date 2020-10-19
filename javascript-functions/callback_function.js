@@ -3,8 +3,9 @@ function check(value){
 }
 
 
-function test(num,func){
+// the call back function takes value and function as parar
+function callBack(num,func){
     func(num);
 }
 
-test(420,check)
+callBack(420,check);

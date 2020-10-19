@@ -1,0 +1,17 @@
+IP:
+www.facebook.com --> converts --> IP Address
+
+DNS: 
+Connect Link-->IP-->server
+
+
+GET:
+fetch something from API
+
+POST:
+post something to API
+
+API:
+1. Json file stored on server
+2. Submit some info-->go to server-->check with Json Data-->Accept/Ignore the request
+3. Link or Space... call & access those things
