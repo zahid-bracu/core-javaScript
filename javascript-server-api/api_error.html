@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+   <script>
+       fetch('https://jsonplaceholder.typicode.com/usErs')
+       .then(response => response.json())
+       .then(json =>load(json))
+       .catch(error=>{
+        console.log(error);
+       })
+       
+       
+
+       function load(data){
+           console.log(data[0]);
+       }
+   </script>
+</body>
+</html>

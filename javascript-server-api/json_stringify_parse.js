@@ -12,10 +12,11 @@ var obj={
  
   console.log(obj);
  
+  // stringify
   var json=JSON.stringify(obj);
   console.log(json);
  
- 
+//  parse
   var newObj=JSON.parse(json);
   console.log(newObj);
 

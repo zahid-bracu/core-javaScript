@@ -15,3 +15,11 @@ API:
 1. Json file stored on server
 2. Submit some info-->go to server-->check with Json Data-->Accept/Ignore the request
 3. Link or Space... call & access those things
+
+
+network-XHR (XML HTTP Request)
+
+import topic:
+1. GET vs POST vs PUT
+2. Http Request Codes
+3. 
