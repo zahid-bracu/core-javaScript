@@ -23,3 +23,9 @@ console.log(wordThree.indexOf("find"));
 // Index of two
 var country="Bangladesh";
 console.log(country.indexOf("desh"));
+
+
+// split
+var message="This is my december. this is my snow-covered eyes";
+var array=message.split(" ");
+console.log(array);
