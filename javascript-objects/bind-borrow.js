@@ -25,12 +25,4 @@ console.log(newPerson);
 
 
 
-// 3rd object example
-const anotherPerson={
-    fname:"Touhid",
-    lname:"Rahman",
-    salary:8000,
-}
  
-person.setSalary.call(anotherPerson,1000,500);
-console.log(anotherPerson);

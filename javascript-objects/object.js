@@ -1,4 +1,5 @@
 const person={
+    // declare & set variable value
     fname:"Zahid",
     lname:"Rahman",
     salary:4000,
