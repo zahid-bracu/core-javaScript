@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+
+        // setting some item into session storage
+        sessionStorage.setItem('name', 'Tom');
+        console.log(sessionStorage )
+
+
+        sessionStorage.setItem('id', 15101122);
+        console.log(sessionStorage )
+
+
+        sessionStorage.setItem('campus', 'bracu');
+        console.log(sessionStorage )
+
+
+        // removing an item from session storage
+        sessionStorage.removeItem('name')
+        console.log(sessionStorage )
+
+
+        //getting an item in session storage
+        var item=sessionStorage.getItem('id')
+        console.log(item);
+
+
+        //getting an item by key value from session storage
+        var keyValue=sessionStorage.key(1)
+        console.log(item);
+
+
+
+        //setting some array value in session storage
+        var array=['x','y','z'];
+        sessionStorage.setItem("array",JSON.stringify(array));
+
+
+        //getting the array from session storage
+        var returnedArray=JSON.parse(sessionStorage.getItem('array'));
+        console.log(returnedArray);
+    </script>
+</body>
+</html>

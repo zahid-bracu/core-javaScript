@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+
+        // setting some item into local storage
+        localStorage.setItem('name', 'Tom');
+        console.log(localStorage )
+
+
+        localStorage.setItem('id', 15101122);
+        console.log(localStorage )
+
+
+        localStorage.setItem('campus', 'bracu');
+        console.log(localStorage )
+
+
+        // removing an item from local storage
+        localStorage.removeItem('name')
+        console.log(localStorage )
+
+
+        //getting an item in local storage
+        var item=localStorage.getItem('id')
+        console.log(item);
+
+
+        //getting an item by key value from local storage
+        var keyValue=localStorage.key(1)
+        console.log(item);
+
+
+
+        //setting some array value in local storage
+        var array=['x','y','z'];
+        localStorage.setItem("array",JSON.stringify(array));
+
+
+        //getting the array from local storage
+        var returnedArray=JSON.parse(localStorage.getItem('array'));
+        console.log(returnedArray);
+
+
+        //clearing all storage
+        localStorage.clear();
+    </script>
+</body>
+</html>
