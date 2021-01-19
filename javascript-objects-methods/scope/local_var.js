@@ -4,4 +4,4 @@ function check(){
 }
 
 check();
-console.log(value); // will not work as it is a local variable
+//console.log(value); // will not work as it is a local variable
