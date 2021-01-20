@@ -35,7 +35,10 @@
 
 <script>
     // query selector all : select all as an array
-     var article=document.querySelectorAll("article h3");
+     var article=document.querySelectorAll(".article h3");
+     console.log(article);
+
+     //now loop through the array to access it
      for(var i=0;i<article.length;i++){
          article[i].style.background="yellow";
      }

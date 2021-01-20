@@ -3,7 +3,7 @@ function check(value){
 }
 
 
-// the call back function takes value and function as parar
+// the call back function takes value and function as param
 function callBack(num,func){
     func(num);
 }
