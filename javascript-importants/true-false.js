@@ -9,9 +9,9 @@ if(num){
 // number
 var num1=0;
 if(num1 || num1==0){
-    console.log("True")
+    console.log("True") //answer
 }else{
-    console.log("False") //answer
+    console.log("False") 
 }
 
 

@@ -2,7 +2,7 @@
 var array=[10,20,30,40,50,60]
 var total=array.reduce((sum,num)=> {
     console.log(sum+":"+num);
-    return sum+num
+    return sum*num
 },0)
 console.log(total);
 

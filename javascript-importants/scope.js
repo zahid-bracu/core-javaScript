@@ -12,7 +12,7 @@ check();
  
 
 console.log(name); //undefined as var
-var name="Spooky";
+var name="Spooky"; // property name is hoisted--> but not the value is hoisted
 
 
 console.log(id); //error as let

@@ -12,11 +12,11 @@ var obj={
  
   console.log(obj);
  
-  // stringify
+  // stringify -- to send data to server we need to stringify it
   var json=JSON.stringify(obj);
   console.log(json);
  
-//  parse
+//  parse -- data loads from server -- now need to parse it into Object . so we use parse
   var newObj=JSON.parse(json);
   console.log(newObj);
 
