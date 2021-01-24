@@ -1,7 +1,7 @@
 var arr=[11,22,33,44,55];
 
 var res=arr.filter((value,index,arr)=>{
-    return value>2;
+    return value>22;
 })
 console.log(res);
 
@@ -26,7 +26,7 @@ var arrayObject=[
     }
 ]
 var res=arrayObject.filter(key => {
-    return key.id>1;
+    return key.id>2;
 })
 
 console.log(res);

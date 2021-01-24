@@ -1,3 +1,5 @@
+
+// closed enviroment
 function test(){
     var num=0;
     return function check(){
@@ -7,6 +9,7 @@ function test(){
 }
 
 
+// calling it using function
 var func=test();
 console.log(func());
 console.log(func());
