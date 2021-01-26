@@ -28,6 +28,7 @@
         button.addEventListener('click',function(event){
             console.log("Value : "+event.target.value);  //Value 
             console.log("Inner Text : "+event.target.innerText); //inner text 
+            event.target.parentNode.removeChild(event.target);
         })
     }
 </script>
