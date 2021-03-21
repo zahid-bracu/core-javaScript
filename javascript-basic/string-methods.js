@@ -29,3 +29,19 @@ console.log(country.indexOf("desh"));
 var message="This is my december. this is my snow-covered eyes";
 var array=message.split(" ");
 console.log(array);
+
+
+// string length
+var longMessage="Hello, I am standing on the bridge";
+console.log(longMessage.length);
+
+
+// string index
+var randomMessage='SPEED';
+console.log(randomMessage[3]);
+
+
+// string index Immutability
+var randomMessageTwo='SPEED';
+randomMessage[1]='L' //will not work
+
