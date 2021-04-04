@@ -8,6 +8,6 @@ function test(){
 }
 
 
-console.log(name); //this line won't be printed before the function call
+//console.log(name); //this line won't be printed before the function call
 test();
 console.log(name); // this line will be printed after the function call
