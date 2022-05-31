@@ -1,0 +1,7 @@
+In a synchronous system, tasks are completed one after another.JavaScript is by default Synchronous [single threaded]
+In Asynchronous system, tasks are completed independently.
+
+
+Q. what is call back hell??
+Ans. This is a big issue caused by coding with complex nested callbacks. Here, each and every callback takes an argument that is a result of the previous callbacks. In this manner, The code structure looks like a pyramid, making it difficult to read and maintain.
+Call back hell is solved by promise
