@@ -8,3 +8,6 @@ var divide = 60 / 20;
 console.log(divide); //Output : 3
 var reminder = 11 % 3;
 console.log(reminder); //Output : 2
+// power
+var x = 2 ** 2;
+console.log(x); //4

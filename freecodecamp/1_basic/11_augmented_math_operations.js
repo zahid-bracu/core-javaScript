@@ -17,3 +17,8 @@ console.log(z); // Output : 60
 var m = 40;
 m /= 2;
 console.log(m); // Output : 20
+
+
+var pq = 10;
+pq **= 2;
+console.log(pq);//Ouput : 100
