@@ -11,6 +11,12 @@ order()
     .then(() => {
         console.log("An error occured");
     })
+    .catch((error) => {
+        console.log(" the error occured : " + error);
+    })
+    .finally(() => {
+        console.log("Ends here");
+    })
 
 
 /*

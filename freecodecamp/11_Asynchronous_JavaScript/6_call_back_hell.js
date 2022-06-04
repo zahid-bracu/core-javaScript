@@ -1,10 +1,3 @@
-/*
-This is a big issue caused by coding with complex nested callbacks. Here, each and every callback takes an argument that is a result of the previous callbacks. In this manner, The code structure looks like a pyramid, making it difficult to read and maintain
-
-*/
-
-
-
 function order() {
     setTimeout(() => {
         console.log("Order has been placed");
@@ -38,15 +31,3 @@ function production() {
 }
 
 order(production);
-
-
-/*
-Order has been placed
-Production has been started
-Fruit is being cut
-Water & Ice has been added
-Machine has been started
-Container has been selected
-Toppings has been added
-Ice cream has  been served
-*/
